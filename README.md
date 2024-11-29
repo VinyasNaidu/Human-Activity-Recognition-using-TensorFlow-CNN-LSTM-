@@ -29,8 +29,11 @@ The processed frames (features) and one-hot encoded class labels (labels) are di
 - Utilizes Keras's ConvLSTM2D layers, suitable for spatial-temporal data.
 - Incorporates MaxPooling3D and Dropout layers to reduce dimensionality and prevent overfitting.
 
+![LSTM_images](https://github.com/user-attachments/assets/ec76d2df-d068-469f-9887-c2a965199033)
+
 ### LRCN Model Setup
 - Employs the Long-term Recurrent Convolutional Network model, effective for visual input sequence prediction tasks.
+![LRCN_Architecture](https://github.com/user-attachments/assets/40d69e40-1b0d-4f9d-a51f-f7af7c3c6fd4)
 
 ### Model Visualization
 - Both models are visualized using the `plot_model()` function to ensure the correctness and integrity of the architectures.
@@ -43,7 +46,8 @@ The processed frames (features) and one-hot encoded class labels (labels) are di
 
 ### Visualization of Loss and Accuracy
 - Training and validation metrics for both models are visualized to assess performance across different epochs.
-
+![Total VS Validation Accuracy](https://github.com/user-attachments/assets/d63254cc-e334-4ba5-a1c8-87c2363d8ed7)
+![Total VS Validation Loss](https://github.com/user-attachments/assets/eb229a00-af1a-41ef-81f1-3dc39e8bd930)
 ---
 
 ## Application on New Data
