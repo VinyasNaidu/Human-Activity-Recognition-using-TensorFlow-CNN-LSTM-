@@ -42,7 +42,7 @@ The processed frames (features) and one-hot encoded class labels (labels) are di
 
 ## Model Evaluation and Visualization
 ### Evaluation
-- Models are evaluated on the test set to determine accuracy and other relevant metrics.
+- Models are evaluated on the test set to determine accuracy and other relevant metrics (The test test is from real time data from Youtube.)
 
 ### Visualization of Loss and Accuracy
 - Training and validation metrics for both models are visualized to assess performance across different epochs.
